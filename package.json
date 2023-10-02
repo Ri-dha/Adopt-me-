@@ -1,0 +1,28 @@
+{
+  "name": "citr-v8-project",
+  "version": "8.0.0",
+  "description": "Complete Intro to React v8 project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "keywords": [],
+  "author": "Ridha Tareq",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.3",
+    "vite": "^3.2.7"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
